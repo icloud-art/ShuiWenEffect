@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D101CF001862CC120025FF29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CEFF1862CC120025FF29 /* Foundation.framework */; };
+		D101CF021862CC120025FF29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF011862CC120025FF29 /* CoreGraphics.framework */; };
+		D101CF041862CC120025FF29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF031862CC120025FF29 /* UIKit.framework */; };
+		D101CF0A1862CC120025FF29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D101CF081862CC120025FF29 /* InfoPlist.strings */; };
+		D101CF0C1862CC120025FF29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF0B1862CC120025FF29 /* main.m */; };
+		D101CF101862CC120025FF29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF0F1862CC120025FF29 /* AppDelegate.m */; };
+		D101CF121862CC120025FF29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D101CF111862CC120025FF29 /* Images.xcassets */; };
+		D101CF191862CC120025FF29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF181862CC120025FF29 /* XCTest.framework */; };
+		D101CF1A1862CC120025FF29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CEFF1862CC120025FF29 /* Foundation.framework */; };
+		D101CF1B1862CC120025FF29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF031862CC120025FF29 /* UIKit.framework */; };
+		D101CF231862CC120025FF29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D101CF211862CC120025FF29 /* InfoPlist.strings */; };
+		D101CF251862CC120025FF29 /* ShuiWenEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF241862CC120025FF29 /* ShuiWenEffectTests.m */; };
+		D101CF2F1862CC330025FF29 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF2E1862CC330025FF29 /* QuartzCore.framework */; };
+		D101CF311862CC3E0025FF29 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF301862CC3E0025FF29 /* OpenGLES.framework */; };
+		D101CF331862CC460025FF29 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101CF321862CC460025FF29 /* CoreVideo.framework */; };
+		D101CF3D1862CC6A0025FF29 /* GLIRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF361862CC6A0025FF29 /* GLIRViewController.m */; };
+		D101CF3E1862CC6A0025FF29 /* RippleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF381862CC6A0025FF29 /* RippleModel.m */; };
+		D101CF3F1862CC6A0025FF29 /* RippleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF3A1862CC6A0025FF29 /* RippleTableViewController.m */; };
+		D101CF441862CC910025FF29 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D101CF431862CC910025FF29 /* MainViewController.m */; };
+		D101CF461862CD0C0025FF29 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D101CF451862CD0C0025FF29 /* back.jpg */; };
+		D101CF491862D6200025FF29 /* Shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = D101CF471862D6200025FF29 /* Shader.vsh */; };
+		D101CF4A1862D6200025FF29 /* Shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = D101CF481862D6200025FF29 /* Shader.fsh */; };
+		D101CF4B1862D7850025FF29 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D101CF471862D6200025FF29 /* Shader.vsh */; };
+		D101CF4C1862D7850025FF29 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D101CF481862D6200025FF29 /* Shader.fsh */; };
+		D16F685D1862DB44004BBDCB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16F685C1862DB44004BBDCB /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D101CF1C1862CC120025FF29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D101CEF41862CC120025FF29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D101CEFB1862CC120025FF29;
+			remoteInfo = ShuiWenEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D101CEFC1862CC120025FF29 /* ShuiWenEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuiWenEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101CEFF1862CC120025FF29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D101CF011862CC120025FF29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D101CF031862CC120025FF29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D101CF071862CC120025FF29 /* ShuiWenEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuiWenEffect-Info.plist"; sourceTree = "<group>"; };
+		D101CF091862CC120025FF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D101CF0B1862CC120025FF29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D101CF0D1862CC120025FF29 /* ShuiWenEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShuiWenEffect-Prefix.pch"; sourceTree = "<group>"; };
+		D101CF0E1862CC120025FF29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D101CF0F1862CC120025FF29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D101CF111862CC120025FF29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D101CF171862CC120025FF29 /* ShuiWenEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuiWenEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D101CF181862CC120025FF29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D101CF201862CC120025FF29 /* ShuiWenEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShuiWenEffectTests-Info.plist"; sourceTree = "<group>"; };
+		D101CF221862CC120025FF29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D101CF241862CC120025FF29 /* ShuiWenEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShuiWenEffectTests.m; sourceTree = "<group>"; };
+		D101CF2E1862CC330025FF29 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D101CF301862CC3E0025FF29 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D101CF321862CC460025FF29 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D101CF351862CC6A0025FF29 /* GLIRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLIRViewController.h; sourceTree = "<group>"; };
+		D101CF361862CC6A0025FF29 /* GLIRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLIRViewController.m; sourceTree = "<group>"; };
+		D101CF371862CC6A0025FF29 /* RippleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleModel.h; sourceTree = "<group>"; };
+		D101CF381862CC6A0025FF29 /* RippleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleModel.m; sourceTree = "<group>"; };
+		D101CF391862CC6A0025FF29 /* RippleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RippleTableViewController.h; sourceTree = "<group>"; };
+		D101CF3A1862CC6A0025FF29 /* RippleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RippleTableViewController.m; sourceTree = "<group>"; };
+		D101CF421862CC910025FF29 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D101CF431862CC910025FF29 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		D101CF451862CD0C0025FF29 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		D101CF471862D6200025FF29 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		D101CF481862D6200025FF29 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		D16F685C1862DB44004BBDCB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D101CEF91862CC120025FF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16F685D1862DB44004BBDCB /* GLKit.framework in Frameworks */,
+				D101CF331862CC460025FF29 /* CoreVideo.framework in Frameworks */,
+				D101CF311862CC3E0025FF29 /* OpenGLES.framework in Frameworks */,
+				D101CF2F1862CC330025FF29 /* QuartzCore.framework in Frameworks */,
+				D101CF021862CC120025FF29 /* CoreGraphics.framework in Frameworks */,
+				D101CF041862CC120025FF29 /* UIKit.framework in Frameworks */,
+				D101CF001862CC120025FF29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101CF141862CC120025FF29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101CF191862CC120025FF29 /* XCTest.framework in Frameworks */,
+				D101CF1B1862CC120025FF29 /* UIKit.framework in Frameworks */,
+				D101CF1A1862CC120025FF29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D101CEF31862CC120025FF29 = {
+			isa = PBXGroup;
+			children = (
+				D101CF051862CC120025FF29 /* ShuiWenEffect */,
+				D101CF1E1862CC120025FF29 /* ShuiWenEffectTests */,
+				D101CEFE1862CC120025FF29 /* Frameworks */,
+				D101CEFD1862CC120025FF29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D101CEFD1862CC120025FF29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D101CEFC1862CC120025FF29 /* ShuiWenEffect.app */,
+				D101CF171862CC120025FF29 /* ShuiWenEffectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D101CEFE1862CC120025FF29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16F685C1862DB44004BBDCB /* GLKit.framework */,
+				D101CF321862CC460025FF29 /* CoreVideo.framework */,
+				D101CF301862CC3E0025FF29 /* OpenGLES.framework */,
+				D101CF2E1862CC330025FF29 /* QuartzCore.framework */,
+				D101CEFF1862CC120025FF29 /* Foundation.framework */,
+				D101CF011862CC120025FF29 /* CoreGraphics.framework */,
+				D101CF031862CC120025FF29 /* UIKit.framework */,
+				D101CF181862CC120025FF29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D101CF051862CC120025FF29 /* ShuiWenEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D101CF341862CC6A0025FF29 /* RippleTableViewController */,
+				D101CF0E1862CC120025FF29 /* AppDelegate.h */,
+				D101CF0F1862CC120025FF29 /* AppDelegate.m */,
+				D101CF421862CC910025FF29 /* MainViewController.h */,
+				D101CF431862CC910025FF29 /* MainViewController.m */,
+				D101CF111862CC120025FF29 /* Images.xcassets */,
+				D101CF061862CC120025FF29 /* Supporting Files */,
+			);
+			path = ShuiWenEffect;
+			sourceTree = "<group>";
+		};
+		D101CF061862CC120025FF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D101CF451862CD0C0025FF29 /* back.jpg */,
+				D101CF071862CC120025FF29 /* ShuiWenEffect-Info.plist */,
+				D101CF081862CC120025FF29 /* InfoPlist.strings */,
+				D101CF0B1862CC120025FF29 /* main.m */,
+				D101CF0D1862CC120025FF29 /* ShuiWenEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D101CF1E1862CC120025FF29 /* ShuiWenEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D101CF241862CC120025FF29 /* ShuiWenEffectTests.m */,
+				D101CF1F1862CC120025FF29 /* Supporting Files */,
+			);
+			path = ShuiWenEffectTests;
+			sourceTree = "<group>";
+		};
+		D101CF1F1862CC120025FF29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D101CF201862CC120025FF29 /* ShuiWenEffectTests-Info.plist */,
+				D101CF211862CC120025FF29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D101CF341862CC6A0025FF29 /* RippleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D101CF471862D6200025FF29 /* Shader.vsh */,
+				D101CF481862D6200025FF29 /* Shader.fsh */,
+				D101CF351862CC6A0025FF29 /* GLIRViewController.h */,
+				D101CF361862CC6A0025FF29 /* GLIRViewController.m */,
+				D101CF371862CC6A0025FF29 /* RippleModel.h */,
+				D101CF381862CC6A0025FF29 /* RippleModel.m */,
+				D101CF391862CC6A0025FF29 /* RippleTableViewController.h */,
+				D101CF3A1862CC6A0025FF29 /* RippleTableViewController.m */,
+			);
+			path = RippleTableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D101CEFB1862CC120025FF29 /* ShuiWenEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D101CF281862CC120025FF29 /* Build configuration list for PBXNativeTarget "ShuiWenEffect" */;
+			buildPhases = (
+				D101CEF81862CC120025FF29 /* Sources */,
+				D101CEF91862CC120025FF29 /* Frameworks */,
+				D101CEFA1862CC120025FF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuiWenEffect;
+			productName = ShuiWenEffect;
+			productReference = D101CEFC1862CC120025FF29 /* ShuiWenEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D101CF161862CC120025FF29 /* ShuiWenEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D101CF2B1862CC120025FF29 /* Build configuration list for PBXNativeTarget "ShuiWenEffectTests" */;
+			buildPhases = (
+				D101CF131862CC120025FF29 /* Sources */,
+				D101CF141862CC120025FF29 /* Frameworks */,
+				D101CF151862CC120025FF29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D101CF1D1862CC120025FF29 /* PBXTargetDependency */,
+			);
+			name = ShuiWenEffectTests;
+			productName = ShuiWenEffectTests;
+			productReference = D101CF171862CC120025FF29 /* ShuiWenEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D101CEF41862CC120025FF29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Grace Leo";
+				TargetAttributes = {
+					D101CF161862CC120025FF29 = {
+						TestTargetID = D101CEFB1862CC120025FF29;
+					};
+				};
+			};
+			buildConfigurationList = D101CEF71862CC120025FF29 /* Build configuration list for PBXProject "ShuiWenEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D101CEF31862CC120025FF29;
+			productRefGroup = D101CEFD1862CC120025FF29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D101CEFB1862CC120025FF29 /* ShuiWenEffect */,
+				D101CF161862CC120025FF29 /* ShuiWenEffectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D101CEFA1862CC120025FF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101CF4B1862D7850025FF29 /* Shader.vsh in Resources */,
+				D101CF4C1862D7850025FF29 /* Shader.fsh in Resources */,
+				D101CF0A1862CC120025FF29 /* InfoPlist.strings in Resources */,
+				D101CF461862CD0C0025FF29 /* back.jpg in Resources */,
+				D101CF121862CC120025FF29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101CF151862CC120025FF29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101CF231862CC120025FF29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D101CEF81862CC120025FF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101CF4A1862D6200025FF29 /* Shader.fsh in Sources */,
+				D101CF101862CC120025FF29 /* AppDelegate.m in Sources */,
+				D101CF491862D6200025FF29 /* Shader.vsh in Sources */,
+				D101CF441862CC910025FF29 /* MainViewController.m in Sources */,
+				D101CF3F1862CC6A0025FF29 /* RippleTableViewController.m in Sources */,
+				D101CF3E1862CC6A0025FF29 /* RippleModel.m in Sources */,
+				D101CF3D1862CC6A0025FF29 /* GLIRViewController.m in Sources */,
+				D101CF0C1862CC120025FF29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D101CF131862CC120025FF29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D101CF251862CC120025FF29 /* ShuiWenEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D101CF1D1862CC120025FF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D101CEFB1862CC120025FF29 /* ShuiWenEffect */;
+			targetProxy = D101CF1C1862CC120025FF29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D101CF081862CC120025FF29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101CF091862CC120025FF29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D101CF211862CC120025FF29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D101CF221862CC120025FF29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D101CF261862CC120025FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D101CF271862CC120025FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D101CF291862CC120025FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuiWenEffect/ShuiWenEffect-Prefix.pch";
+				INFOPLIST_FILE = "ShuiWenEffect/ShuiWenEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D101CF2A1862CC120025FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuiWenEffect/ShuiWenEffect-Prefix.pch";
+				INFOPLIST_FILE = "ShuiWenEffect/ShuiWenEffect-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D101CF2C1862CC120025FF29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuiWenEffect.app/ShuiWenEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuiWenEffect/ShuiWenEffect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShuiWenEffectTests/ShuiWenEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D101CF2D1862CC120025FF29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShuiWenEffect.app/ShuiWenEffect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShuiWenEffect/ShuiWenEffect-Prefix.pch";
+				INFOPLIST_FILE = "ShuiWenEffectTests/ShuiWenEffectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D101CEF71862CC120025FF29 /* Build configuration list for PBXProject "ShuiWenEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101CF261862CC120025FF29 /* Debug */,
+				D101CF271862CC120025FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D101CF281862CC120025FF29 /* Build configuration list for PBXNativeTarget "ShuiWenEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101CF291862CC120025FF29 /* Debug */,
+				D101CF2A1862CC120025FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D101CF2B1862CC120025FF29 /* Build configuration list for PBXNativeTarget "ShuiWenEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D101CF2C1862CC120025FF29 /* Debug */,
+				D101CF2D1862CC120025FF29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D101CEF41862CC120025FF29 /* Project object */;
+}
